@@ -36,11 +36,13 @@ li {
 
 a{
     text-decoration:none;
-    color: #3D58A6
+    color: #3D58A6;
     
     
 }
-
+a li{
+    color: #3D58A6;
+}
 a:hover{
     color: #EE4036
 }
@@ -103,6 +105,9 @@ a:hover{
 
 .text p {
     padding-bottom:25px;
+    font-family: "BPG Ingiri Arial", sans-serif;
+    font-size:18px;
+
 }
 .text p:last-child{
     padding-bottom:0;
@@ -117,3 +122,17 @@ a:hover{
 }
 
 /* contact page end */
+
+/* fonts start */
+
+.Nino-Mtavruli{
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    font-size:22px;
+    
+
+}
+
+.hell{
+    color: #3D58A6
+}
+/* fonts end */
